@@ -5,9 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>PJ Cosmetics Online Store</title>
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <!-- Header with a sticky navigation bar -->
   <header>
+    <div class="logo">
+      <img src="assets/images/logo.png" alt="PJ Cosmetics Logo">
+    </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -15,30 +20,53 @@
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#cart">Cart</a></li>
+        <li><input type="text" placeholder="Search..." class="search-bar"></li>
       </ul>
     </nav>
   </header>
 
+  <!-- Hero section with a call-to-action -->
   <section id="hero">
-    <h1>Welcome to PJ Cosmetics</h1>
-    <p>Your one-stop shop for premium beauty products.</p>
-  </section>
-
-  <section id="products">
-    <h2>Featured Products</h2>
-    <div class="product-list">
-      <div class="product-item">
-        <img src="assets/images/product1.jpg" alt="Product 1">
-        <h3>Product Name 1</h3>
-        <p>$19.99</p>
-        <a href="products/product1.html">View Product</a>
-      </div>
-      <!-- Add more products here -->
+    <div class="hero-content">
+      <h1>Enhance Your Beauty with PJ Cosmetics</h1>
+      <p>Explore our premium beauty products, carefully curated for all skin types.</p>
+      <a href="#products" class="cta-button">Shop Now</a>
     </div>
   </section>
 
+  <!-- Product section with product cards -->
+  <section id="products">
+    <h2>Our Best Sellers</h2>
+    <div class="product-grid">
+      <!-- Product Card 1 -->
+      <div class="product-card">
+        <img src="assets/images/product1.jpg" alt="Product 1">
+        <h3>Product Name 1</h3>
+        <p>$19.99</p>
+        <a href="products/product1.html" class="view-product">View Product</a>
+      </div>
+
+      <!-- Product Card 2 -->
+      <div class="product-card">
+        <img src="assets/images/product2.jpg" alt="Product 2">
+        <h3>Product Name 2</h3>
+        <p>$24.99</p>
+        <a href="products/product2.html" class="view-product">View Product</a>
+      </div>
+      <!-- Add more product cards as needed -->
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2024 PJ Cosmetics. All Rights Reserved.</p>
+    <div class="footer-content">
+      <p>&copy; 2024 PJ Cosmetics. All Rights Reserved.</p>
+      <ul class="social-links">
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
   </footer>
 
   <script src="assets/js/scripts.js"></script>
