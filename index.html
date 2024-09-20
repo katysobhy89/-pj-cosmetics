@@ -3,72 +3,62 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PJ Cosmetics Online Store</title>
+  <title>PJ Cosmetics - Hair Products</title>
   <link rel="stylesheet" href="assets/css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <!-- Header with a sticky navigation bar -->
+  <!-- Header and Navigation -->
   <header>
-    <div class="logo">
-      <img src="assets/images/logo.png" alt="PJ Cosmetics Logo">
-    </div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="#products">Products</a></li>
+        <li><a href="#hair-products">Hair Products</a></li>
+        <li><a href="#skincare">Skincare</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="#cart">Cart</a></li>
-        <li><input type="text" placeholder="Search..." class="search-bar"></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Hero section with a call-to-action -->
+  <!-- Hero Section -->
   <section id="hero">
-    <div class="hero-content">
-      <h1>Enhance Your Beauty with PJ Cosmetics</h1>
-      <p>Explore our premium beauty products, carefully curated for all skin types.</p>
-      <a href="#products" class="cta-button">Shop Now</a>
-    </div>
+    <h1>Welcome to PJ Cosmetics</h1>
+    <p>Your one-stop shop for premium beauty and hair products.</p>
   </section>
 
-  <!-- Product section with product cards -->
-  <section id="products">
-    <h2>Our Best Sellers</h2>
-    <div class="product-grid">
-      <!-- Product Card 1 -->
-      <div class="product-card">
-        <img src="assets/images/product1.jpg" alt="Product 1">
-        <h3>Product Name 1</h3>
-        <p>$19.99</p>
-        <a href="products/product1.html" class="view-product">View Product</a>
-      </div>
+  <!-- Hair Products Section -->
+  <section id="hair-products">
+    <h2>Hair Products</h2>
 
-      <!-- Product Card 2 -->
-      <div class="product-card">
-        <img src="assets/images/product2.jpg" alt="Product 2">
-        <h3>Product Name 2</h3>
-        <p>$24.99</p>
-        <a href="products/product2.html" class="view-product">View Product</a>
-      </div>
-      <!-- Add more product cards as needed -->
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="footer-content">
-      <p>&copy; 2024 PJ Cosmetics. All Rights Reserved.</p>
-      <ul class="social-links">
-        <li><a href="#">Facebook</a></li>
-        <li><a href="#">Instagram</a></li>
-        <li><a href="#">Twitter</a></li>
+    <!-- Filter by Company -->
+    <div class="company-filter">
+      <h3>Shop by Company</h3>
+      <ul>
+        <li><a href="#loreal">L'Oreal</a></li>
+        <li><a href="#eva">Eva</a></li>
+        <li><a href="#sunsilk">Sunsilk</a></li>
+        <!-- Add more companies as needed -->
       </ul>
     </div>
-  </footer>
 
-  <script src="assets/js/scripts.js"></script>
-</body>
-</html>
+    <!-- L'Oreal Section -->
+    <section id="loreal" class="product-category">
+      <h3>L'Oreal Hair Products</h3>
+      <div class="product-list">
+        <!-- Shampoo -->
+        <div class="product-item">
+          <img src="assets/images/loreal-shampoo.jpg" alt="L'Oreal Shampoo">
+          <h4>L'Oreal Shampoo</h4>
+          <p>$15.99</p>
+          <a href="products/loreal-shampoo.html">View Product</a>
+        </div>
+        <!-- Conditioner -->
+        <div class="product-item">
+          <img src="assets/images/loreal-conditioner.jpg" alt="L'Oreal Conditioner">
+          <h4>L'Oreal Conditioner</h4>
+          <p>$12.99</p>
+          <a href="products/loreal-conditioner.html">View Product</a>
+        </div>
+        <!-- Hair Mask -->
+        <
