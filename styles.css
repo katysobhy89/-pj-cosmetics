@@ -1,142 +1,34 @@
-/* General Styling */
+/* css/styles.css */
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f4f4f9; /* Light background */
-  color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #ffeb3b; /* Yellow */
+    margin: 0;
+    padding: 0;
 }
 
 header {
-  background-color: #ff9f1a; /* Light orange for header */
-  color: white;
-  padding: 15px;
-  text-align: center;
+    background-color: #3f51b5; /* Blue */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.product, .cart-item {
+    background-color: #e8f5e9; /* Light Green */
+    border: 1px solid #f44336; /* Red */
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+button {
+    background-color: #4caf50; /* Green */
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-#hero {
-  background-color: #b3d9ff; /* Light blue for hero section */
-  padding: 50px 0;
-  text-align: center;
-}
-
-#hero h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
-  color: #ff9f1a; /* Light orange for text */
-}
-
-#hero p {
-  font-size: 1.2em;
-  color: #333;
-}
-
-#hair-products {
-  padding: 30px;
-  background-color: #f4f4f9; /* Light background */
-}
-
-h2 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #ff9f1a; /* Light orange for headings */
-}
-
-.company-filter {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.company-filter ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.company-filter ul li {
-  display: inline-block;
-  margin-right: 15px;
-}
-
-.company-filter ul li a {
-  text-decoration: none;
-  color: #ff9f1a; /* Light orange for filter links */
-  font-weight: bold;
-}
-
-.product-list {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.product-item {
-  width: 200px;
-  margin-bottom: 20px;
-  text-align: center;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 15px;
-  background-color: white;
-}
-
-.product-item img {
-  max-width: 100%;
-  border-radius: 5px;
-}
-
-.product-item h4 {
-  font-size: 1.2em;
-  margin-top: 10px;
-  color: #333;
-}
-
-.product-item p {
-  color: #ff9f1a; /* Light orange for price */
-  font-weight: bold;
-}
-
-.product-item a {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 15px;
-  background-color: #ff9f1a; /* Light orange button */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 30px;
-}
-
-@media (max-width: 768px) {
-  .product-list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .product-item {
-    width: 80%;
-  }
+button:hover {
+    background-color: #2e7d32; /* Darker Green for hover */
 }
